@@ -1,0 +1,30 @@
+
+
+
+h1 {
+    font-family: sans-serif;
+    color: orange;
+    display: flex;
+    justify-content: center;
+}
+
+
+.p-welcome {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    color: darkmagenta;
+}
+.app { 
+ color: orange ;
+ justify-content: center;
+
+ display: flex;
+ gap: 300px;
+
+ justify-content: space-between;
+ margin: 50px;
+ 
+ 
+}
+
