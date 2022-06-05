@@ -9,7 +9,7 @@ let add = document.getElementById("add");
 
 
 form.addEventListener("submit", (e) => {
-    e.preventDefault();
+    //e.preventDefault();
     formValidation();
     
 })
