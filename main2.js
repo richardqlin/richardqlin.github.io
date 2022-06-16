@@ -54,8 +54,8 @@ let acceptData = () => {
 let createTasks = () => {
     tasks.innerHTML = "";
     data.map ((x, y) => {
-        return ( tasks.innerHTML += 
-            `<div id=${y}> 
+        return (tasks.innerHTML += 
+    `<div id=${y}> 
     <span class="font-weight-bold">${x.text}</span>
     <span class="small text-secondary">${x.date}</span>
     <p>${x.description}</p>
@@ -68,7 +68,7 @@ let createTasks = () => {
 });
 
 
-resetForm  ();
+resetForm();
 
 };
 
@@ -99,9 +99,8 @@ let resetForm = () => {
     textarea.value="";
 };
 
- ( () => {
+ (() => {
     data =JSON.parse( localStorage.getItem("data"))  || [];
-
     createTasks();
    console.log(data); 
 })();
